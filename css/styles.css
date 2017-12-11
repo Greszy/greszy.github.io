@@ -1,0 +1,440 @@
+html {
+    font-size: 100%;
+    background-color: #f5f5f5;
+    color: #263238;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    line-height: 1.6;
+}
+
+body {
+ 
+line-height: 1.6875;
+
+}
+
+/** Header Navigation **/
+
+.navbar { 
+    
+padding: 30px 0;    
+
+}
+
+.navbar-default { 
+
+border: none;
+
+}
+
+.collapse .navbar-nav a {
+    
+    text-transform: uppercase;
+    color: rgb(50,33,88) !important;
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+}
+
+.navbar-default .navbar-nav a:hover {
+    
+    color: rgb(237,27,88) !important;
+    
+}
+
+.image1 {
+    
+    width: 160px;
+    
+}
+
+/*.image2 {
+   display: none;
+}
+
+@media only screen and (max-width: 480px){
+   .image1{
+     display: none;
+   }
+
+   .image2{
+     display: block;
+     width: 160px;
+   }
+}*/
+
+/*-------------------------Intro------------------------*/
+
+.intro {
+
+text-align: center;
+padding: 20px 0 20px 0;
+color: rgb(50,33,88);
+background-color: rgba(211,211,211,0.5);
+/*background-color: rgba(237,27,88,0.5);*/
+/*background-image: url("../images/test.jpg");*/ 
+}
+
+.intro h2 {
+   font-size:  3.125rem;
+   font-weight: 300;
+}
+
+@media only screen and (max-width: 480px) {
+.intro h2 {
+  
+    font-size:  2.0rem;
+    
+    
+  }
+}
+
+.intro p {
+     font-size: 1.5625rem;
+     font-weight: 300;
+}
+
+
+header .btn {
+    
+    background-color: rgb(237,27,88);
+
+}
+
+
+
+/*******Benefits*******/
+
+
+#benefits h1 {
+   
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    color:  rgb(50,33,88);
+    font-size: 2.875rem;
+    
+}
+
+.benefit {
+
+max-width: 100%;
+
+}
+
+
+.benefit p {
+ 
+   text-align: left;
+    
+}
+
+
+.text-normal { 
+
+    font-size: 16px;
+    font-size: 1.375rem;
+    line-height: 1.5;
+    margin: .75em 0;
+}
+
+@media only screen and (min-width: 1000px) {
+ .text-normal {
+    font-size: 22px;
+    font-size: 1.375rem;
+   }
+}
+
+@media only screen and (min-width: 600px){
+   .text-normal {
+    font-size: 20px;
+    font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+	.first {
+		order: 1;
+	}
+	.second {
+		order: 2;
+	}
+}
+
+.benefit h2  {
+    
+    font-size: 29px;
+    font-size: 1.8125rem;
+    font-weight: 500;
+    margin-bottom: .3em;
+    text-align: left;
+    color: rgb(237,27,88);
+    margin-top: 100px;
+    
+}
+
+@media only screen and (min-width: 1000px){
+h2 {
+    font-size: 46px;
+    font-size: 2.875rem;
+ }
+}
+
+
+
+@media only screen and (min-width: 600px){
+h2 {
+    font-size: 36px;
+    font-size: 2.25rem;
+ }
+}
+    
+
+/**********************Download Middle**********************************/
+
+.download {
+    height: auto;
+    background-color: rgba(50,33,88,0.5);
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+@media only screen and (min-width: 64em){
+.download {
+    padding-top: 5em;
+    padding-right: 2.5em;
+    padding-bottom: 5em;
+    padding-left: 2.5em;
+}
+}
+
+@media only screen and (min-width: 48em){
+.download {
+    padding-top: 3.75em;
+    padding-right: 1.875em;
+    padding-bottom: 3.75em;
+    padding-left: 1.875em;
+ }
+}
+ 
+@media only screen and (max-width: 47.975em){
+.download {
+    padding-top: 2.5em;
+    padding-right: 0.625em;
+    padding-bottom: 2.5em;
+    padding-left: 0.625em;
+}
+}
+.download h3 {
+    
+   max-width: 14em;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
+    
+}
+
+.download p {
+    
+    font-size: 1.125rem;
+    max-width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-weight: 500;
+
+}
+
+.download .btn {
+    
+     background-color: rgb(237,27,88);
+     margin-bottom: 20px; 
+}
+
+
+/******************How it works *********************/
+
+#steps h1 {
+    
+    margin-top: 20px;
+    
+}
+
+
+#steps img {
+
+    padding-top: 3em;
+
+}
+
+
+.step h2 {
+    
+    color:  rgb(237,27,88);
+    font-size: 2.875rem;
+    margin-top: 40px;
+
+}
+
+.step h1 {
+    
+    color:  rgb(50,33,88);
+    font-size: 2.875rem;
+
+}
+
+
+.step  {
+
+text-align: center;
+max-width: 100%;
+
+}
+
+@media only screen and (max-width: 768px) {
+.step p {
+  
+    text-align: left;
+    
+  }
+}
+
+@media only screen and (min-width: 769px) {
+.step p {
+  
+    margin-left: 8em;
+    margin-right: 8em;
+    
+  }
+}
+
+
+#partners h2 {
+    text-align: center;
+    font-size: 2.875rem; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(237,27,88);
+}
+
+#logos {
+    
+    text-align: center;
+    margin-right: 10%px;
+    margin-left: 10%px;
+    
+}
+
+@media only screen and (min-width: 769px) {
+#logos {
+  
+    margin-left: 15%;
+    
+  }
+}
+
+/**********************Social Media Icons***********************************/
+
+#social {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(237,27,88,0.5);
+}
+
+#social .fa {
+
+color: rgb(50,33,88);
+
+}
+
+#social .fa:hover {
+
+color: rgb(237,27,88);
+
+}
+
+/***************Footer*********************/
+
+footer {
+    
+    font-size: 20px;
+    background-color: grey;
+    padding: 20px 0 40px 0;
+    color: white;  
+}
+
+footer ul {
+    
+    display: inline-block; 
+    margin-top: 20px;
+    list-style-type:none;
+    
+}
+
+@media only screen and (max-width: 480px) {
+footer ul {
+  
+    margin-left: 25px;
+    
+    
+  }
+}
+
+#footer-text p {
+    
+    text-align: center;
+    
+}
+
+
+
+.bottom-logo {
+    
+    text-align: center;
+    
+}
+
+.bottom-logo img {
+    
+    width: 228px;
+    height: auto; 
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.bottom-download {
+    
+    text-align: center;
+    
+}
+
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+/*
+@media only screen and (max-width: 800px) {
+body { font-size:100%;}
+} 
+
+@media only screen and (max-width: 1100px) {
+body { font-size:120%;}
+}
+
+@media only screen and (max-width: 400px) {
+body { font-size:80%;}
+}
+
+*/
+
+/* {  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/

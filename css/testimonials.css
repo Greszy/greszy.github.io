@@ -1,0 +1,200 @@
+html {
+    font-size: 100%;
+    background-color: #f5f5f5;
+    color: #263238;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    line-height: 1.6;
+}
+
+body {
+ 
+line-height: 1.6875;
+
+}
+
+/** Header Navigation **/
+
+.navbar { 
+    
+padding: 30px 0;    
+
+}
+
+header .navbar-default { 
+
+border: none;
+
+}
+
+header .navbar-default .navbar-nav a {
+    
+    text-transform: uppercase;
+    color: rgb(50,33,88);
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+}
+
+header .navbar-default .navbar-nav a:hover {
+    
+    color: rgb(237,27,88);
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+    
+    font-weight: 700;
+    background: transparent;
+    border-bottom: 4px solid rgb(50,33,88);
+    text-shadow: none;
+}
+
+
+
+.page {
+    padding: 50px 0;
+}
+
+.page h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/**Page - Mission**/
+#mission {
+    background-color: rgb(50,33,88);
+    color: white;
+    border-top: 20px solid rgba(237,27,88, .5)
+}
+
+/**Page - Team**/
+
+#staff h2 {
+    
+    color: rgb(237,27,88);
+    
+}
+
+.member {
+    margin: 10px 0;
+
+}
+
+.member h3 {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: rgb(237,27,88);
+    padding-bottom: 5px;
+}
+
+.member img {
+    
+    
+    height: auto;
+    
+}
+
+
+
+/**Page - Contact**/
+
+.center {
+    
+    text-align: center;
+}
+
+.one-third-box {
+    
+    padding: 30px 25px;
+    height: 380px;
+    border: 1px solid #f2f2f2;
+}
+
+.one-third-box .description {
+    
+        padding: 40px 0 10px 0;
+       
+        
+}
+
+.one-third-box .button {
+    
+        padding: 20px 0 10px 0;
+        
+        
+}
+
+.one-third-box h3 {
+    
+        color:  rgb(237,27,88);
+       
+}
+
+.btn {
+    border: 2px solid rgb(237,27,88);
+    color: rgb(237,27,88);
+    cursor: pointer;
+    
+}
+
+a.btn:hover {
+    
+background-color: rgb(237,27,88);
+color: white;
+border-color: rgb(237,27,88)
+
+}
+
+
+
+#social {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(237,27,88,0.5);
+}
+
+#social .fa {
+
+color: rgb(50,33,88);
+
+}
+
+#social .fa:hover {
+
+color: rgb(237,27,88);
+
+}
+
+footer {
+    
+    font-size: 20px;
+    background-color: grey;
+    padding: 20px 0 40px 0;
+    color: white;  
+}
+
+footer a { 
+
+   color: white;
+
+ }
+
+/*
+@media only screen and (max-width: 800px) {
+body { font-size:100%;}
+} 
+
+@media only screen and (max-width: 1100px) {
+body { font-size:120%;}
+}
+
+@media only screen and (max-width: 400px) {
+body { font-size:80%;}
+}
+
+*/
+
+/* {  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/
