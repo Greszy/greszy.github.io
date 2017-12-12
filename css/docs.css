@@ -16,37 +16,51 @@ line-height: 1.6875;
 
 .navbar { 
     
-padding: 20px 0;    
+padding: 30px 0;    
 
 }
 
-header .navbar-default { 
+.navbar-default { 
 
 border: none;
 
 }
 
-header .navbar-default .navbar-nav a {
+.collapse .navbar-nav a {
     
     text-transform: uppercase;
-    color: rgb(50,33,88);
+    color: rgb(50,33,88) !important;
     font-weight: 500;
     font-size: 1.2rem;
     
 }
 
-header .navbar-default .navbar-nav a:hover {
+.navbar-default .navbar-nav a:hover {
     
-    color: rgb(237,27,88);
+    color: rgb(237,27,88) !important;
+    
 }
 
-header .navbar-default .navbar-nav .active a:hover {
+.image1 {
     
-    font-weight: 700;
-    background: transparent;
-    border-bottom: 4px solid rgb(50,33,88);
-    text-shadow: none;
+    width: 160px;
+    
 }
+
+/*.image2 {
+   display: none;
+}
+
+@media only screen and (max-width: 480px){
+   .image1{
+     display: none;
+   }
+
+   .image2{
+     display: block;
+     width: 160px;
+   }
+}*/
 
 .title {
     
@@ -73,6 +87,8 @@ color: rgb(237,27,88);
 
 }
 
+/***************Footer*********************/
+
 footer {
     
     font-size: 20px;
@@ -81,24 +97,71 @@ footer {
     color: white;  
 }
 
-footer a { 
-
-   color: white;
-
- }
-
 footer ul {
     
-    
-    display: inline-block;
+    display: inline-block; 
+    margin-top: 20px;
+    list-style-type:none;
     
 }
 
-ul {
+@media only screen and (max-width: 480px) {
+footer ul {
+  
+    margin-left: 25px;
     
-list-style-type:none;
+  }
+}
+
+#footer-text p {
     
+    text-align: center;
     
+}
+
+#footer-links li a {
+    
+    color: white;
+    
+}
+
+#footer-links li a:hover {
+    
+    color: rgb(237,27,88);
+    text-decoration: none;
+    
+}
+
+
+
+.bottom-logo {
+    
+    text-align: center;
+    
+}
+
+.bottom-logo img {
+    
+    width: 228px;
+    height: auto; 
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.bottom-download {
+    
+    text-align: center;
+    
+}
+
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 /*

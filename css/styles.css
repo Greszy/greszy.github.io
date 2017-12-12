@@ -387,6 +387,19 @@ footer ul {
     
 }
 
+#footer-links li a {
+    
+    color: white;
+    
+}
+
+#footer-links li a:hover {
+    
+    color: rgb(237,27,88);
+    text-decoration: none;
+    
+}
+
 
 
 .bottom-logo {
