@@ -47,7 +47,7 @@ border: none;
     
 }
 
-/*.image2 {
+.image2 {
    display: none;
 }
 
@@ -58,9 +58,8 @@ border: none;
 
    .image2{
      display: block;
-     width: 160px;
    }
-}*/
+}
 
 /*-------------------------Intro------------------------*/
 
