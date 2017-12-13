@@ -73,6 +73,10 @@ video {
 video {
   
     background:transparent url('../images/video2small.jpg') no-repeat 0 0;
+    -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-size:cover;
     
     
   }
