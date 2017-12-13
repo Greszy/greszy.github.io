@@ -43,6 +43,10 @@ background-color: rgba(211,211,211,0.5);
      font-weight: 300;
 }
 
+.padding-0 {
+    padding-right:0;
+    padding-left:0;
+}
 
 header .btn {
     
@@ -54,6 +58,15 @@ header .btn:hover {
     
     background-color: rgb(50,33,88);
 
+}
+
+video {
+   
+   background:transparent url('../images/video1.jpg') no-repeat 0 0;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+   background-size:cover;
 }
 
 

@@ -32,3 +32,7 @@ $(window).scroll(function(event){
    }
    lastScrollTop = st;
 });
+
+/*************************Promo Video****************************/
+
+$('.video').click(function(){this.paused?this.play():this.pause();});
