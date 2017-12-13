@@ -12,43 +12,7 @@ line-height: 1.6875;
 
 }
 
-/** Header Navigation **/
-
-.navbar { 
-    
-padding: 30px 0;    
-
-}
-
-header .navbar-default { 
-
-border: none;
-
-}
-
-header .navbar-default .navbar-nav a {
-    
-    text-transform: uppercase;
-    color: rgb(50,33,88);
-    font-weight: 500;
-    font-size: 1.2rem;
-    
-}
-
-header .navbar-default .navbar-nav a:hover {
-    
-    color: rgb(237,27,88);
-}
-
-header .navbar-default .navbar-nav .active a:hover {
-    
-    font-weight: 700;
-    background: transparent;
-    border-bottom: 4px solid rgb(50,33,88);
-    text-shadow: none;
-}
-
-
+/**************Main Page*********************/
 
 .page {
     padding: 50px 0;
@@ -95,7 +59,7 @@ header .navbar-default .navbar-nav .active a:hover {
 
 
 
-/**Page - Contact**/
+/*******************Page - Contact******************************/
 
 .center {
     
@@ -129,18 +93,17 @@ header .navbar-default .navbar-nav .active a:hover {
        
 }
 
-.btn {
+.one-third-box .btn {
     border: 2px solid rgb(237,27,88);
     color: rgb(237,27,88);
     cursor: pointer;
     
 }
 
-a.btn:hover {
+.one-third-box .btn:hover {
     
 background-color: rgb(237,27,88);
 color: white;
-border-color: rgb(237,27,88)
 
 }
 
@@ -165,6 +128,8 @@ color: rgb(237,27,88);
 
 }
 
+/***************Footer*********************/
+
 footer {
     
     font-size: 20px;
@@ -173,11 +138,72 @@ footer {
     color: white;  
 }
 
-footer a { 
+footer ul {
+    
+    display: inline-block; 
+    margin-top: 20px;
+    list-style-type:none;
+    
+}
 
-   color: white;
+@media only screen and (max-width: 480px) {
+footer ul {
+  
+    margin-left: 25px;
+    
+  }
+}
 
- }
+#footer-text p {
+    
+    text-align: center;
+    
+}
+
+#footer-links li a {
+    
+    color: white;
+    
+}
+
+#footer-links li a:hover {
+    
+    color: rgb(237,27,88);
+    text-decoration: none;
+    
+}
+
+
+
+.bottom-logo {
+    
+    text-align: center;
+    
+}
+
+.bottom-logo img {
+    
+    width: 228px;
+    height: auto; 
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.bottom-download {
+    
+    text-align: center;
+    
+}
+
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 
 /*
 @media only screen and (max-width: 800px) {

@@ -12,55 +12,6 @@ line-height: 1.6875;
 
 }
 
-/** Header Navigation **/
-
-.navbar { 
-    
-padding: 30px 0;    
-
-}
-
-.navbar-default { 
-
-border: none;
-
-}
-
-.collapse .navbar-nav a {
-    
-    text-transform: uppercase;
-    color: rgb(50,33,88) !important;
-    font-weight: 500;
-    font-size: 1.2rem;
-    
-}
-
-.navbar-default .navbar-nav a:hover {
-    
-    color: rgb(237,27,88) !important;
-    
-}
-
-.image1 {
-    
-    width: 160px;
-    
-}
-
-.image2 {
-   display: none;
-}
-
-@media only screen and (max-width: 575px){
-   .image1{
-     display: none;
-   }
-
-   .image2{
-     display: block;
-   }
-}
-
 /*-------------------------Intro------------------------*/
 
 .intro {
@@ -99,9 +50,14 @@ header .btn {
 
 }
 
+header .btn:hover {
+    
+    background-color: rgb(50,33,88);
+
+}
 
 
-/*******Benefits*******/
+/********************************Benefits**********************************/
 
 
 #benefits h1 {
