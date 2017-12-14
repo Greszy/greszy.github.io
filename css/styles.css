@@ -1,63 +1,140 @@
-html {
-    
-    background-color: #f5f5f5;
-    color: #263238;
-    font-family: Roboto,Helvetica,Arial,sans-serif;
-    line-height: 1.6;
-}
-
-body {
- 
-line-height: 1.6875;
-
-}
-
-/*-------------------------Intro------------------------*/
-
-.intro {
-
-text-align: center;
-padding: 20px 0 20px 0;
-color: rgb(50,33,88);
-background-color: rgba(211,211,211,0.5);
-/*background-color: rgba(237,27,88,0.5);*/
-/*background-image: url("../images/test.jpg");*/ 
-}
-
-.intro h2 {
-   font-size:  3.125rem;
-   font-weight: 300;
-}
-
-@media only screen and (max-width: 480px) {
-.intro h2 {
-  
-    font-size:  2.0rem;
-    
-    
-  }
-}
-
-.intro p {
-     font-size: 1.5625rem;
-     font-weight: 300;
-}
-
 .padding-0 {
     padding-right:0;
     padding-left:0;
 }
 
-header .btn {
-    
-    background-color: rgb(237,27,88);
 
+/*-------------------------Intro with the Promo Video------------------------*/
+
+
+.banner {
+    
+    text-align: center;
+    
 }
 
-header .btn:hover {
+.banner-heading {
+    
+    font-size: 1.6em;
+    color: rgb(237,27,88)
+}
+
+.banner-text {
+    
+    font-size: 1.2em;
+    
+}
+
+.banner-button {
+    
+    
+    background-color: rgb(237,27,88);
+    color: #fff;
+    padding: 0.6em 1em;
+    margin: 1em 1em 2em 1em;
+    border: 2em;
+    
+}
+
+.banner-button:hover {
     
     background-color: rgb(50,33,88);
+    color: white;
+}
 
+@media only screen and (min-width: 576px) {
+
+.banner-heading {
+        
+    font-size: 1.7em;
+    
+    }
+    
+.banner-text {
+    font-size: 1.2em;
+    margin: 0 1em;
+}
+    
+.banner-button {
+ 
+    background-color: rgb(237,27,88);
+    color: #fff;
+    padding: 0.8em 1.2em;
+    margin: 1em 1em 2em 1em;
+    border: 2em;
+    
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+.banner-heading {
+        
+    font-size: 1.5em;
+    
+    }
+    
+.banner-text {
+    font-size: 1em;
+    margin: 0 1em;
+}
+    
+.banner-button {
+ 
+    background-color: rgb(237,27,88);
+    color: #fff;
+    padding: 0.8em 1.2em;
+    margin: 1em 1em 2em 1em;
+    border: 2em;
+    
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+.banner-heading {
+        
+    font-size: 1.5em;
+    
+    }
+    
+.banner-text {
+    font-size: 1em;
+    margin: 0 1em;
+}
+    
+.banner-button {
+ 
+    background-color: rgb(237,27,88);
+    color: #fff;
+    padding: 0.8em 1.2em;
+    margin: 1em 1em 2em 1em;
+    border: 2em;
+    
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+.banner {
+        
+        margin-top: 1em;
+        
+    }
+    
+    
+.banner-heading {
+        
+    font-size: 1.3em;
+    
+    }
+
+.banner-text {
+    
+    font-size: 0.9em;
+   
+    }
+    
 }
 
 video {
@@ -83,56 +160,55 @@ video {
 }
 
 
-/********************************Benefits**********************************/
+/********************************************************
 
+                      Benefits
 
-#benefits h1 {
-   
-    margin-top: 20px;
-    margin-bottom: 0;
+*********************************************************/
+
+.page-title {
+    
+    font-size: 1.7em;
+    color: rgb(50,33,88);
     text-align: center;
-    color:  rgb(50,33,88);
-    font-size: 2.875rem;
+    margin-top: 1.5em;
     
 }
 
-.benefit {
-
-max-width: 100%;
-
-}
-
-
-.benefit p {
- 
-   text-align: left;
+.benefit-heading {
+    
+      font-size: 1.1em;
+      color: rgb(237,27,88);
+      text-align: center;
     
 }
 
+.benefit-text {
 
-.text-normal { 
+font-size: 0.8em;
 
-    font-size: 16px;
-    font-size: 1.375rem;
-    line-height: 1.5;
-    margin: .75em 0;
 }
 
-@media only screen and (min-width: 1000px) {
- .text-normal {
-    font-size: 22px;
-    font-size: 1.375rem;
-   }
+.center {
+    
+    text-align: center;
+    
 }
 
-@media only screen and (min-width: 600px){
-   .text-normal {
-    font-size: 20px;
-    font-size: 1.25rem;
+@media only screen and (min-width: 576px) {
+
+   .benefit {
+        
+    margin: 3em 0 2em 0;
+    
     }
+    
+    
 }
 
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 767px) {
 	.first {
 		order: 1;
 	}
@@ -141,168 +217,125 @@ max-width: 100%;
 	}
 }
 
-.benefit h2  {
-    
-    font-size: 29px;
-    font-size: 1.8125rem;
-    font-weight: 500;
-    margin-bottom: .3em;
-    text-align: left;
-    color: rgb(237,27,88);
-    margin-top: 100px;
-    
-}
 
-@media only screen and (min-width: 1000px){
-h2 {
-    font-size: 46px;
-    font-size: 2.875rem;
- }
-}
-
-
-
-@media only screen and (min-width: 600px){
-h2 {
-    font-size: 36px;
-    font-size: 2.25rem;
- }
-}
     
 
-/**********************Download Middle**********************************/
+/***********************************************
 
-.download {
-    height: auto;
-    background-color: rgba(50,33,88,0.5);
+                Download Middle
+
+************************************************/
+
+
+.middle-banner{
+    
+    background-color: rgba(50,33,88,0.5); 
     text-align: center;
-    margin-top: 40px;
-
+    
 }
 
-@media only screen and (min-width: 64em){
 .download {
-    padding-top: 5em;
-    padding-right: 2.5em;
-    padding-bottom: 5em;
-    padding-left: 2.5em;
-}
+    
+    padding: 2em 0;
+    
 }
 
-@media only screen and (min-width: 48em){
-.download {
-    padding-top: 3.75em;
-    padding-right: 1.875em;
-    padding-bottom: 3.75em;
-    padding-left: 1.875em;
- }
+.middle-banner-heading {
+    
+    color: #fff;
+    
 }
+
+.middle-banner-text {
+    
+    color: #fff;
+    
+}
+
+.middle-banner-button {
+    
+    background-color: rgb(237,27,88);
+    color: #fff;
+    padding: 0.6em 1em;
+    margin: 1em 1em 2em 1em;
+    border: 2em;
+    
+}
+
+.middle-banner-button:hover {
+    
+    background-color: rgb(50,33,88);
+    color: white;
+}
+
+@media only screen and (min-width: 992px) {
+    
+.middle-banner-button {
  
-@media only screen and (max-width: 47.975em){
-.download {
-    padding-top: 2.5em;
-    padding-right: 0.625em;
-    padding-bottom: 2.5em;
-    padding-left: 0.625em;
-}
-}
-.download h3 {
-    
-   max-width: 14em;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 40px;
-    
-}
-
-.download p {
-    
-    font-size: 1.125rem;
-    max-width: 20em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    font-weight: 500;
-
-}
-
-.download .btn {
-    
-     background-color: rgb(237,27,88);
-     margin-bottom: 20px; 
-}
-
-
-/******************How it works *********************/
-
-#steps h1 {
-    
-    margin-top: 20px;
-    
-}
-
-
-#steps img {
-
-    padding-top: 3em;
-
-}
-
-
-.step h2 {
-    
-    color:  rgb(237,27,88);
-    font-size: 2.875rem;
-    margin-top: 40px;
-
-}
-
-.step h1 {
-    
-    color:  rgb(50,33,88);
-    font-size: 2.875rem;
-
-}
-
-
-.step  {
-
-text-align: center;
-max-width: 100%;
-
-}
-
-@media only screen and (max-width: 768px) {
-.step p {
-  
-    text-align: left;
-    
-  }
-}
-
-@media only screen and (min-width: 769px) {
-.step p {
-  
-    margin-left: 8em;
-    margin-right: 8em;
+    padding: 0.8em 1.2em;
+    margin: 1.2em 2em 1.2em 2em;
+    border: 2em;
     
   }
 }
 
 
-#partners h2 {
+/******************************************
+
+            How it works 
+
+*******************************************/
+
+
+#steps {
+    
     text-align: center;
-    font-size: 2.875rem; 
-    padding-bottom: 20px;
-    padding-top: 20px;
-    color: rgb(237,27,88);
+    
 }
+
+.step {
+    
+    margin: 3em 0 2em 0;
+    
+}
+
+.step-heading {
+    
+    font-size: 1.1em;
+    color: rgb(237,27,88);
+   
+    
+} 
+
+.step-text {
+    
+  font-size: 0.8em;  
+    
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+.step-text {
+    
+    font-size: 0.9em;
+    margin: 1em 4em;
+   
+    }
+    
+}
+
+/******************************************
+
+            Partners 
+
+*******************************************/
+
 
 #logos {
     
     text-align: center;
-    margin-right: 10%px;
-    margin-left: 10%px;
+    margin: 0 auto;
     
 }
 
@@ -339,48 +372,55 @@ color: rgb(237,27,88);
 
 footer {
     
-    font-size: 20px;
     background-color: grey;
     padding: 20px 0 40px 0;
-    color: white;  
+    color: white;
+    
+}
+
+.text-footer {
+    
+    
+    font-size: 0.8em;
+    
+    
 }
 
 footer ul {
     
     display: inline-block; 
-    margin-top: 20px;
     list-style-type:none;
+    
     
 }
 
 @media only screen and (max-width: 575px) {
 footer ul {
   
-    margin-left: 25px;
+    margin-left: 2.5em;
     
     
   }
 }
 
-#footer-text p {
+.footer-links {
     
-    text-align: center;
+    margin: 0 auto;
     
 }
 
-#footer-links li a {
+.footer-links li a {
     
     color: white;
     
 }
 
-#footer-links li a:hover {
+.footer-links li a:hover {
     
     color: rgb(237,27,88);
     text-decoration: none;
     
 }
-
 
 
 .bottom-logo {
@@ -393,7 +433,7 @@ footer ul {
     
     width: 228px;
     height: auto; 
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
     
 }
@@ -404,14 +444,6 @@ footer ul {
     
 }
 
-
-p {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
 
 /*
 @media only screen and (max-width: 800px) {

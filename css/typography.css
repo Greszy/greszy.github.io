@@ -1,0 +1,122 @@
+/************************
+
+Typography
+
+*************************/
+html {
+    
+    background-color: white;
+    
+}
+
+
+
+body,
+button,
+input,
+select,
+textarea {
+    
+
+ color: #263238;
+ font-family: Roboto,Helvetica,Arial,sans-serif;
+ font-size: 100%;
+ font-size: 18px;
+ line-height: 1.5;
+    
+    
+}
+
+body,
+caption,
+th,
+td,
+input,
+textarea,
+select,
+option,
+legend,
+fieldset,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: sans-serif;
+	clear: both;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1.25;
+}
+
+h2 {
+	font-size: 1.6em;
+	line-height: 1.2;
+}
+
+h3 {
+	font-size: 1.4em;
+	line-height: 1.15;
+}
+
+h4 {
+	font-size: 1.2em;
+	line-height: 1;
+}
+
+/******************Responsive Typography***************************/
+
+.content {
+    
+    font-size: 1em;
+    
+}
+
+@media only screen and (min-width: 576px) {
+.content {
+  
+    font-size:  1.2em;
+    line-height: 1.375em;
+    
+  }
+}
+
+@media only screen and (min-width: 768px) {
+.content {
+  
+    font-size:  1.3em;
+    line-height: 1.4em;
+    
+    
+  }
+}
+
+@media only screen and (min-width: 992px) {
+.content {
+  
+    font-size:  1.4em;
+    line-height: 1.425em;
+    
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+.content {
+  
+    font-size:  1.5em;
+    line-height: 1.450em;
+    
+  }
+}
