@@ -4,13 +4,23 @@
 }
 
 
-/*-------------------------Intro with the Promo Video------------------------*/
+/****************************************
+
+Intro with the Promo Video
+
+*****************************************/
+
+.banner-color {
+    
+    background-color: lightgrey;
+    
+}
 
 
 .banner {
     
     text-align: center;
-    
+    margin-top: 2em;
 }
 
 .banner-heading {
@@ -118,7 +128,7 @@
 
 .banner {
         
-        margin-top: 1em;
+        margin-top: 2em;
         
     }
     
@@ -201,8 +211,16 @@ font-size: 0.8em;
         
     margin: 3em 0 2em 0;
     
+    }    
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .benefit-heading {
+        
+        padding: 0 1.8em;
     }
-    
     
 }
 
@@ -216,6 +234,9 @@ font-size: 0.8em;
 		order: 2;
 	}
 }
+
+
+
 
 
     
@@ -388,34 +409,27 @@ footer {
 
 footer ul {
     
-    display: inline-block; 
+
     list-style-type:none;
     
     
 }
 
-@media only screen and (max-width: 575px) {
-footer ul {
-  
-    margin-left: 8.5em;
-    
-    
-  }
+.list-inline {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
 }
 
-.footer-links {
-    
-    margin: 0 auto;
-    
-}
 
-.footer-links li a {
+
+.list-inline li a {
     
     color: white;
     
 }
 
-.footer-links li a:hover {
+.list-inline li a:hover {
     
     color: rgb(237,27,88);
     text-decoration: none;
@@ -438,11 +452,16 @@ footer ul {
     
 }
 
-.bottom-download {
+.footer-copyright {
     
+    height: 20px;
+    line-height: 50px;
+    color: rgba(255,255,255,.6);
     text-align: center;
-    
+    font-size: .9rem;
 }
+
+ 
 
 
 /*
@@ -455,8 +474,7 @@ body { font-size:120%;}
 }
 
 @media only screen and (max-width: 400px) {
-body { font-size:80%;}
-}
+body { font-size:80%;}}
 
 */
 
