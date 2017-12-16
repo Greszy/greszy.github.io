@@ -206,13 +206,16 @@ font-size: 0.8em;
 }
 
 @media only screen and (max-width: 767px){
-   .benefit2 {
-     display: none;
-   }
-
-   .benefit1 {
+   
+    .benefit1 {
      display: block;
    }
+    .benefit2 {
+     display: none;
+   }
+    .benefit3 {
+    display: none;    
+    }
 }
 
 @media only screen and (min-width: 768px){
@@ -223,7 +226,24 @@ font-size: 0.8em;
    .benefit2 {
      display: block;
    }
+   .benefit3 {
+    display: none;    
+    }    
 }
+
+@media only screen and (min-width: 992px){
+   .benefit1 {
+     display: none;
+   }
+
+   .benefit2 {
+     display: none;
+   }
+   .benefit3 {
+    display: block;    
+    }    
+}
+
 
 @media only screen and (min-width: 576px) {
 
