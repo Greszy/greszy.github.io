@@ -205,44 +205,6 @@ font-size: 0.8em;
     
 }
 
-@media only screen and (max-width: 767px){
-   
-    .benefit1 {
-     display: block;
-   }
-    .benefit2 {
-     display: none;
-   }
-    .benefit3 {
-    display: none;    
-    }
-}
-
-@media only screen and (min-width: 768px){
-   .benefit1 {
-     display: none;
-   }
-
-   .benefit2 {
-     display: none;
-   }
-   .benefit3 {
-    display: block;    
-    }    
-}
-
-/*@media only screen and (min-width: 992px){
-   .benefit1 {
-     display: none;
-   }
-
-   .benefit2 {
-     display: none;
-   }
-   .benefit3 {
-    display: block;    
-    }    
-}*/
 
 
 @media only screen and (min-width: 576px) {
@@ -518,7 +480,7 @@ body { font-size:80%;}}
 
 */
 
-* {  background: #000 !important;
+/* {  background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-}
+}*/
