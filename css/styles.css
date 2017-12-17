@@ -25,13 +25,13 @@ Intro with the Promo Video
 
 .banner-heading {
     
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: rgb(237,27,88)
 }
 
 .banner-text {
     
-    font-size: 1.2em;
+    font-size: 1em;
     
 }
 
@@ -42,7 +42,7 @@ Intro with the Promo Video
     color: #fff;
     padding: 0.6em 1em;
     margin: 1em 1em 2em 1em;
-    border: 2em;
+  
     
 }
 
@@ -107,12 +107,7 @@ Intro with the Promo Video
     font-size: 1.5em;
     
     }
-    
-.banner-text {
-    font-size: 1em;
-    margin: 0 1em;
-}
-    
+        
 .banner-button {
  
     background-color: rgb(237,27,88);
@@ -187,9 +182,11 @@ video {
 
 .benefit-heading {
     
-      font-size: 1.1em;
+      font-size: 1.2em;
       color: rgb(237,27,88);
       text-align: center;
+      padding: 0;
+    
     
 }
 
@@ -197,6 +194,12 @@ video {
 
 font-size: 0.8em;
 
+}
+
+.benefit-picture {
+    
+    margin-bottom: 2em;
+    
 }
 
 .center {
@@ -211,24 +214,38 @@ font-size: 0.8em;
 
    .benefit {
         
-    margin: 3em 0 2em 0;
+    margin: 2em 0 1em 0;
+    
     
     }    
+    .benefit-heading {
+        
+      padding: 0 0;  
+      font-size: 1em;
+    }
+    
+    .benefit-text {
+ 
+    padding: 0 2em;
+    
+  }
+    
 }
+
 
 
 @media only screen and (min-width: 1200px) {
 
     .benefit-heading {
         
-        padding: 0 1.8em;
+        
     }
     
 }
 
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
 	.first {
 		order: 1;
 	}
@@ -266,6 +283,7 @@ font-size: 0.8em;
 .middle-banner-heading {
     
     color: #fff;
+    font-size: 1.4em;
     
 }
 
@@ -312,7 +330,7 @@ font-size: 0.8em;
 
 #steps {
     
-    text-align: center;
+    
     
 }
 
@@ -324,8 +342,9 @@ font-size: 0.8em;
 
 .step-heading {
     
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: rgb(237,27,88);
+    text-align: center;
    
     
 } 
@@ -335,6 +354,17 @@ font-size: 0.8em;
   font-size: 0.8em;  
     
 }
+
+@media only screen and (min-width: 576px) {
+    
+.step-text {
+ 
+    padding: 0 2em;
+    
+  }
+}
+
+
 
 @media only screen and (min-width: 1200px) {
 
@@ -391,80 +421,6 @@ color: rgb(237,27,88);
 
 }
 
-/***************Footer*********************/
-
-footer {
-    
-    background-color: grey;
-    padding: 20px 0 40px 0;
-    color: white;
-    
-}
-
-.text-footer {
-    
-    
-    font-size: 0.8em;
-    
-    
-}
-
-footer ul {
-    
-
-    list-style-type:none;
-    
-    
-}
-
-.list-inline {
-  display: flex;
-  justify-content: center;
-  font-size: 0.8em;
-}
-
-
-
-.list-inline li a {
-    
-    color: white;
-    
-}
-
-.list-inline li a:hover {
-    
-    color: rgb(237,27,88);
-    text-decoration: none;
-    
-}
-
-
-.bottom-logo {
-    
-    text-align: center;
-    
-}
-
-.bottom-logo img {
-    
-    width: 228px;
-    height: auto; 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-}
-
-.footer-copyright {
-    
-    height: 20px;
-    line-height: 50px;
-    color: rgba(255,255,255,.6);
-    text-align: center;
-    font-size: .9rem;
-}
-
- 
-
 
 /*
 @media only screen and (max-width: 800px) {
@@ -480,7 +436,7 @@ body { font-size:80%;}}
 
 */
 
-/* {  background: #000 !important;
+* {  background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-}*/
+}
