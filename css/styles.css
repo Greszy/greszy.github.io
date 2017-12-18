@@ -1,6 +1,24 @@
+/********************************************
+
+                    General
+
+*********************************************/
+
+
 .padding-0 {
     padding-right:0;
     padding-left:0;
+}
+
+
+.page-title {
+    
+    font-size: 1.7em;
+    color: rgb(50,33,88);
+    text-align: center;
+    margin-top: 1.5em;
+    font-weight: 700;
+    
 }
 
 
@@ -12,7 +30,7 @@ Intro with the Promo Video
 
 .banner-color {
     
-    background-color: lightgrey;
+    background-color: rgb(50,33,88);
     
 }
 
@@ -26,12 +44,13 @@ Intro with the Promo Video
 .banner-heading {
     
     font-size: 1.4em;
-    color: rgb(237,27,88)
+    color: rgb(237,27,88);
 }
 
 .banner-text {
     
     font-size: 1em;
+    color: #fff;
     
 }
 
@@ -48,8 +67,9 @@ Intro with the Promo Video
 
 .banner-button:hover {
     
-    background-color: rgb(50,33,88);
-    color: white;
+    background-color: rgba(237,27,88,0.5);
+    color: #fff;
+        
 }
 
 @media only screen and (min-width: 576px) {
@@ -67,8 +87,6 @@ Intro with the Promo Video
     
 .banner-button {
  
-    background-color: rgb(237,27,88);
-    color: #fff;
     padding: 0.8em 1.2em;
     margin: 1em 1em 2em 1em;
     border: 2em;
@@ -76,7 +94,7 @@ Intro with the Promo Video
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
 
 .banner-heading {
         
@@ -91,8 +109,6 @@ Intro with the Promo Video
     
 .banner-button {
  
-    background-color: rgb(237,27,88);
-    color: #fff;
     padding: 0.8em 1.2em;
     margin: 1em 1em 2em 1em;
     border: 2em;
@@ -110,8 +126,6 @@ Intro with the Promo Video
         
 .banner-button {
  
-    background-color: rgb(237,27,88);
-    color: #fff;
     padding: 0.8em 1.2em;
     margin: 1em 1em 2em 1em;
     border: 2em;
@@ -171,28 +185,20 @@ video {
 
 *********************************************************/
 
-.page-title {
-    
-    font-size: 1.7em;
-    color: rgb(50,33,88);
-    text-align: center;
-    margin-top: 1.5em;
-    
-}
-
 .benefit-heading {
     
       font-size: 1.2em;
       color: rgb(237,27,88);
       text-align: center;
       padding: 0;
-    
+      font-weight: 500;
     
 }
 
 .benefit-text {
 
-font-size: 0.8em;
+font-size: 1em;
+font-weight: 300;
 
 }
 
@@ -269,7 +275,7 @@ font-size: 0.8em;
 
 .middle-banner{
     
-    background-color: rgba(50,33,88,0.5); 
+    background-color: rgb(50,33,88); 
     text-align: center;
     
 }
@@ -282,14 +288,17 @@ font-size: 0.8em;
 
 .middle-banner-heading {
     
-    color: #fff;
+    color: rgb(237,27,88);
     font-size: 1.4em;
+    font-weight: 500;
     
 }
 
 .middle-banner-text {
     
     color: #fff;
+    font-size: 1em;
+    font-weight: 300;
     
 }
 
@@ -305,7 +314,7 @@ font-size: 0.8em;
 
 .middle-banner-button:hover {
     
-    background-color: rgb(50,33,88);
+    background-color: rgba(237,27,88,0.5);
     color: white;
 }
 
@@ -323,7 +332,7 @@ font-size: 0.8em;
 
 /******************************************
 
-            How it works 
+            How it works? 
 
 *******************************************/
 
@@ -343,6 +352,7 @@ font-size: 0.8em;
 .step-heading {
     
     font-size: 1.2em;
+    font-weight: 500;
     color: rgb(237,27,88);
     text-align: center;
    
@@ -351,7 +361,9 @@ font-size: 0.8em;
 
 .step-text {
     
-  font-size: 0.8em;  
+  font-size: 1em;
+  font-weight: 300;
+  
     
 }
 
@@ -421,20 +433,6 @@ color: rgb(237,27,88);
 
 }
 
-
-/*
-@media only screen and (max-width: 800px) {
-body { font-size:100%;}
-} 
-
-@media only screen and (max-width: 1100px) {
-body { font-size:120%;}
-}
-
-@media only screen and (max-width: 400px) {
-body { font-size:80%;}}
-
-*/
 
 /* {  background: #000 !important;
   color: #0f0 !important;
