@@ -202,6 +202,13 @@ font-weight: 300;
 
 }
 
+.benefit-text li {
+    
+    font-size: 0.8em;
+    line-height: 0.9em;
+    
+}
+
 .benefit-picture {
     
     margin-bottom: 2em;
@@ -244,7 +251,9 @@ font-weight: 300;
 
     .benefit-heading {
         
-        
+    padding-left: 1em;
+    padding-right: 1em;
+    
     }
     
 }
@@ -384,7 +393,7 @@ font-weight: 300;
 .step-text {
     
     font-size: 0.9em;
-    margin: 1em 4em;
+    margin: 1em 2em;
    
     }
     
@@ -437,4 +446,4 @@ color: rgb(237,27,88);
 /* {  background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-}*/
+} */
