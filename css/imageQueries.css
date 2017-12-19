@@ -1,4 +1,10 @@
 
+/****************************************************
+
+Smarthphone Size Screen, both Portrait and Landscape
+
+*****************************************************/
+
 @media only screen and (max-width: 767px){
    
     .smartphone {
@@ -16,6 +22,12 @@
     
 }
 
+/****************************************************
+
+                 Tablet Size Screen
+
+*****************************************************/
+
 @media only screen and (min-width: 768px) and (max-width: 991px){
    .smartphone {
      display: none;
@@ -31,6 +43,12 @@
     }
     
 }
+
+/****************************************************
+
+                 Tablet Size Screen
+
+*****************************************************/
 
 @media only screen and (min-width: 992px) and (max-width: 1199px){
    .smartphone {
@@ -51,6 +69,12 @@
     display: none;    
     }
 }
+
+/****************************************************
+
+                 Big Desktop Size Screen
+
+*****************************************************/
 
 @media only screen and (min-width: 1200px){
    .smartphone {
