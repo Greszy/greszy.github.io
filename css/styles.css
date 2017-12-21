@@ -159,7 +159,7 @@ Intro with the Promo Video
     
 }
 
-video {
+/*video {
    
    background:transparent url('../images/video1.jpg') no-repeat 0 0;
    -webkit-background-size:cover;
@@ -179,7 +179,7 @@ video {
     
     
   }
-}
+}*/
 
 
 /********************************************************
@@ -208,7 +208,7 @@ font-weight: 300;
 .benefit-text li {
     
     font-size: 0.8em;
-    line-height: 0.9em;
+    line-height: 1.2em;
     
 }
 
