@@ -1,0 +1,70 @@
+/********************************************
+
+                    General
+
+*********************************************/
+
+
+
+
+.center {
+    
+    text-align: center;
+
+}
+
+/*********************************************
+
+                 FAQ Content 
+
+**********************************************/
+
+
+
+
+.FaqContent ul li a {
+    
+    color: rgb(50,33,88);
+    
+}
+
+.faq-heading {
+    
+    color: rgb(237,27,88);
+    
+}
+
+.question-bolded {
+    
+    font-weight: bold;
+    color: rgb(237,27,88);
+    
+}
+
+/***************************Social Media*****************************/
+
+
+#social {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(237,27,88,0.5);
+}
+
+#social .fa {
+
+color: rgb(50,33,88);
+
+}
+
+#social .fa:hover {
+
+color: rgb(237,27,88);
+
+}
+
+
+/* {  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/
