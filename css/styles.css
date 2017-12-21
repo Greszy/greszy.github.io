@@ -19,6 +19,11 @@
     font-weight: 700;
 }
 
+.center {
+    
+    text-align: center;
+
+}
 
 /****************************************
 
@@ -212,14 +217,6 @@ font-weight: 300;
     margin-bottom: 2em;
     
 }
-
-.center {
-    
-    text-align: center;
-    
-}
-
-
 
 @media only screen and (min-width: 576px) {
 
@@ -444,4 +441,4 @@ color: rgb(237,27,88);
 /* {  background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-} */
+}*/ 
