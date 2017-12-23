@@ -121,6 +121,13 @@ Intro with the Promo Video
 
 @media only screen and (min-width: 992px) {
 
+.banner {
+        
+        margin-top: 2em;
+        
+    }
+    
+    
 .banner-heading {
         
     font-size: 1.5em;
@@ -138,12 +145,6 @@ Intro with the Promo Video
 
 @media only screen and (min-width: 1200px) {
 
-.banner {
-        
-        margin-top: 3em;
-        
-    }
-    
     
 .banner-heading {
         
