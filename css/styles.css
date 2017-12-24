@@ -188,6 +188,10 @@ video {
   }
 }*/
 
+video {
+   background: transparent url('../images/video1.jpg') 50% 50% / cover no-repeat ;
+ }
+
 
 /********************************************************
 
