@@ -1,36 +1,44 @@
-$(function() {
+$(function () {
+  var lastScrollTop = 0;
+  var $navbar = $('.navbar');
 
-"use strict";
+  $(window).scroll(function(event){
+    var st = $(this).scrollTop();
 
-var wheight = $(window).height(); // get the full height of the window. 
-
-$('.fullheight').css('height, wheight');
-
-//replace IMG inside carousels with background images
-
-$('featured .carousel-item img').each(function(){
-	var imgSrc = $(this).attr('src');
-	$(this).parent().css({'background-image': 'url(' +imgSrc+')'});
-	$(this).remove();
+    if (st > lastScrollTop) { // scroll down
+      
+      // use this is jQuery full is used
+      $navbar.fadeOut();
+      
+      
+      // use this to use CSS3 animation
+       //$navbar.addClass("fade-out");
+       //$navbar.removeClass("fade-in");
+      
+      // use this if no effect is required
+      // $navbar.hide();
+    } else { // scroll up
+      
+      // use this is jQuery full is used
+      $navbar.fadeIn();
+      //$navbar.css('background-color', 'pink');
+      
+      // use this to use CSS3 animation
+      //$navbar.addClass("fade-in");
+      //$navbar.removeClass("fade-out");
+      
+      // use this if no effect is required
+      // $navbar.show();
+    }
+    lastScrollTop = st;
+  });
 });
 
-$(window).resize(function() {
-	wheight = $(window).height(); //get the height of the window
-	$('.fullheight').css('height', wheight); //set to window height
-});
-
-});
-
-var lastScrollTop = 0;
-var navbar = $('.MagicNav');
-$(window).scroll(function(event){
-   var st = $(this).scrollTop();
-   if (st > lastScrollTop){
-       navbar.addClass('navbar-scroll-custom');
-   } else {
-      navbar.removeClass('navbar-scroll-custom');
-   }
-   lastScrollTop = st;
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
 });
 
 /*************************Promo Video****************************/

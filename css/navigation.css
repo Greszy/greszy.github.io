@@ -1,14 +1,36 @@
+
+
+.fade-in {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.fade-out {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+}
+
+.navbar.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
 /******************** Header Navigation ************************************/
+
+
 
 .navbar { 
     
-padding: 15px 0;    
+padding: 15px 0;  
+
 
 }
 
 .navbar-nav {
     
     padding-right: 15px;
+    background-color: #fff;
     
 }
 
