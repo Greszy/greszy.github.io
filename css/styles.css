@@ -411,6 +411,20 @@ font-weight: 300;
 
 *******************************************/
 
+#partners {
+    
+    border-top-style: outset;
+    border-top-color: rgba(50,33,88,0.5);
+    
+}
+
+.page-title {
+    font-size: 1.7em;
+    color: rgb(50,33,88);
+    text-align: center;
+    margin-top: 1em;
+    font-weight: 700;
+}
 
 #logos {
     
