@@ -68,14 +68,15 @@
 
 .member img {
     
-    
     height: auto;
     
 }
 
+/*****************************
 
+       Page - Contact
 
-/*******************Page - Contact******************************/
+******************************/
 
 
 #contact {
@@ -100,10 +101,8 @@
     
     #contact-info p {
     
-    
-    font-size: 1.2em;
+     font-size: 1.2em;
 
-    
    }
     
 }
@@ -132,9 +131,3 @@ color: rgb(50,33,88);
 color: rgb(237,27,88);
 
 }
-
-
-/* {  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-}*/

@@ -165,13 +165,6 @@
     
 }
 
-
-/*video {
-    
-   background: transparent url('../images/video1.jpg') 50% 50% / cover no-repeat ;
- 
-}*/
-
 video{
    object-fit: inherit;
 }
@@ -195,8 +188,8 @@ video{
 
 .benefit-text {
 
-font-size: 1em;
-font-weight: 300;
+    font-size: 1em;
+    font-weight: 300;
 
 }
 
@@ -249,7 +242,6 @@ font-weight: 300;
 }
 
 
-
 @media only screen and (max-width: 991px) {
 	.first {
 		order: 1;
@@ -258,12 +250,6 @@ font-weight: 300;
 		order: 2;
 	}
 }
-
-
-
-
-
-    
 
 /***********************************************
 
@@ -319,7 +305,7 @@ font-weight: 300;
 
 @media only screen and (min-width: 992px) {
     
-.middle-banner-button {
+    .middle-banner-button {
  
     padding: 0.8em 1.2em;
     margin: 1.2em 2em 1.2em 2em;
@@ -335,13 +321,6 @@ font-weight: 300;
 
 *******************************************/
 
-
-#steps {
-    
-    
-    
-}
-
 .step {
     
     margin: 3em 0 2em 0;
@@ -355,7 +334,6 @@ font-weight: 300;
     color: rgb(237,27,88);
     text-align: center;
    
-    
 } 
 
 .step-text {
@@ -363,14 +341,13 @@ font-weight: 300;
   font-size: 1em;
   font-weight: 300;
   
-    
 }
 
 @media only screen and (min-width: 576px) {
     
 .step-text {
  
-    padding: 0 2em;
+ padding: 0 2em;
     
   }
 }
@@ -378,7 +355,6 @@ font-weight: 300;
 
 
 @media only screen and (min-width: 1200px) {
-
 
 .step-text {
     
@@ -425,7 +401,11 @@ font-weight: 300;
   }
 }
 
-/**********************Social Media Icons***********************************/
+/*******************************************************
+
+                  Social Media Icons
+
+******************************************************/
 
 #social {
     margin-top: 50px;

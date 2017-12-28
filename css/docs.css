@@ -15,14 +15,20 @@
 
 
 
-/***************************Social Media*****************************/
+/***************************************
+
+             Social Media
+
+******************************************/
 
 
 #social {
+    
     margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: rgba(237,27,88,0.5);
+
 }
 
 #social .fa {
@@ -36,9 +42,3 @@ color: rgb(50,33,88);
 color: rgb(237,27,88);
 
 }
-
-
-/* {  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-}*/
