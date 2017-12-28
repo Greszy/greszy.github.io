@@ -27,7 +27,7 @@
 
 /****************************************
 
-Intro with the Promo Video
+      Intro with the Promo Video
 
 *****************************************/
 
@@ -37,10 +37,9 @@ Intro with the Promo Video
     
 }
 
-
 .banner {
     
-    text-align: center;
+   text-align: center;
    margin-top: 1em;
 }
 
@@ -54,18 +53,15 @@ Intro with the Promo Video
     
     font-size: 1em;
     color: #fff;
-    
 }
 
 .banner-button {
-    
-    
+        
     background-color: rgb(237,27,88);
     color: #fff;
     padding: 0.6em 1em;
     margin: 1em 1em 2em 1em;
-  
-    
+
 }
 
 .banner-button:hover {
@@ -84,9 +80,11 @@ Intro with the Promo Video
     }
     
 .banner-text {
+    
     font-size: 1.2em;
     margin: 0 1em;
-}
+
+    }
     
 .banner-button {
  
@@ -108,7 +106,8 @@ Intro with the Promo Video
 .banner-text {
     font-size: 1em;
     margin: 0 1em;
-}
+
+    }
     
 .banner-button {
  
@@ -116,7 +115,7 @@ Intro with the Promo Video
     margin: 1em 1em 2em 1em;
     border: 2em;
     
-  }
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -166,31 +165,16 @@ Intro with the Promo Video
     
 }
 
-/*video {
-   
-   background:transparent url('../images/video1.jpg') no-repeat 0 0;
-   -webkit-background-size:cover;
-   -moz-background-size:cover;
-   -o-background-size:cover;
-   background-size:cover;
-}
 
-@media only screen and (max-width: 575px) {
-video {
-  
-    background:transparent url('../images/video2small.jpg') no-repeat 0 0;
-    -webkit-background-size:cover;
-   -moz-background-size:cover;
-   -o-background-size:cover;
-   background-size:cover;
+/*video {
     
-    
-  }
+   background: transparent url('../images/video1.jpg') 50% 50% / cover no-repeat ;
+ 
 }*/
 
-video {
-   background: transparent url('../images/video1.jpg') 50% 50% / cover no-repeat ;
- }
+video{
+   object-fit: inherit;
+}
 
 
 /********************************************************

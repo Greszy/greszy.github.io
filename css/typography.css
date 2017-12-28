@@ -17,7 +17,7 @@ input,
 select,
 textarea {
     
- font-family: Gotham Book;
+ font-family: Helvetica, Arial, sans-serif
  font-size: 100%;
  font-size: 18px;
  line-height: 1.5;
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Muller-ExtraBold;
+	font-family: Muller-ExtraBold, Halvetica, sans-serif;
 	clear: both;
 }
 
