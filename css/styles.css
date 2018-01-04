@@ -37,6 +37,17 @@
     
 }
 
+#featured::before {
+    
+  display: block; 
+  content: " "; 
+  margin-top: -60px; 
+  height: 60px; 
+  visibility: hidden; 
+  pointer-events: none;
+
+}
+
 .banner-color {
     
     background-color: rgb(50,33,88);
@@ -257,6 +268,17 @@ video{
 	}
 }
 
+#benefits::before {
+    
+  display: block; 
+  content: " "; 
+  margin-top: -140px; 
+  height: 140px; 
+  visibility: hidden; 
+  pointer-events: none;
+
+}
+
 /***********************************************
 
                 Download Middle
@@ -405,6 +427,17 @@ video{
     margin-left: 15%;
     
   }
+}
+
+#steps::before {
+    
+  display: block; 
+  content: " "; 
+  margin-top: -140px; 
+  height: 140px; 
+  visibility: hidden; 
+  pointer-events: none;
+
 }
 
 /*******************************************************
