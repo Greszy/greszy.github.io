@@ -50,7 +50,7 @@
 
 .banner-color {
     
-    background-color: rgb(50,33,88);
+   background-color: rgb(50,33,88);
     
 }
 
@@ -315,7 +315,7 @@ video{
     
 }
 
-.middle-banner-button {
+/*.middle-banner-button {
     
     background-color: rgb(237,27,88);
     color: #fff;
@@ -328,10 +328,10 @@ video{
 .middle-banner-button:hover {
     
     background-color: rgba(237,27,88,0.5);
-    color: white;
-}
+    color: #fff;
+}*/
 
-@media only screen and (min-width: 992px) {
+/*@media only screen and (min-width: 992px) {
     
     .middle-banner-button {
  
@@ -340,7 +340,7 @@ video{
     border: 2em;
     
   }
-}
+}*/
 
 
 /******************************************
@@ -433,8 +433,8 @@ video{
     
   display: block; 
   content: " "; 
-  margin-top: -140px; 
-  height: 140px; 
+  margin-top: -60px; 
+  height: 60px; 
   visibility: hidden; 
   pointer-events: none;
 
