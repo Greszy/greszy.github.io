@@ -5,6 +5,12 @@
 
 ************************************/
 
+.white-bg {
+    
+    background:#ffffff !important;
+
+}
+
 .navbar { 
     
     padding: 15px 0;
