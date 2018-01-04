@@ -9,7 +9,11 @@
     text-align: center;
 }
 
-/**************Main Page*********************/
+/***********************************
+
+             Main Page 
+
+************************************/
 
 
 
@@ -23,7 +27,10 @@
 }
 
 /**Page - Mission**/
+
 #mission {
+    
+    margin-top: 70px;
     background-color: rgb(50,33,88);
     color: white;
     border-top: 20px solid rgba(237,27,88, .5);
