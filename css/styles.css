@@ -421,13 +421,18 @@ video {
     
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1200px) {
+
 #logos {
-  
-    margin-left: 15%;
     
-  }
+    padding: 0 7em;
+   
+    }
+    
 }
+
+
+
 
 #steps::before {
     
