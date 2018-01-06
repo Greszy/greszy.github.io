@@ -16,6 +16,7 @@
     color: rgb(50,33,88);
     text-align: center;
     margin-top: 1.5em;
+    margin-bottom: 1em;
     font-weight: 700;
 }
 
@@ -223,6 +224,12 @@ video {
     
 }
 
+.benefit ul {
+    
+    margin-left: 1em;
+    
+}
+
 @media only screen and (min-width: 576px) {
 
    .benefit {
@@ -233,7 +240,7 @@ video {
     }    
     .benefit-heading {
         
-      padding: 0 0;  
+     
       font-size: 1em;
     }
     
@@ -251,7 +258,7 @@ video {
 
     .benefit-heading {
         
-    padding-left: 1em;
+    padding-left:  1em;
     padding-right: 1em;
     
     }
