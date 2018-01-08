@@ -10,13 +10,18 @@
     padding-left:0;
 }
 
+.marginbot {
+    
+    margin-bottom: 1.5em;
+    
+}
+
 
 .page-title {
     font-size: 1.7em;
     color: rgb(50,33,88);
     text-align: center;
     margin-top: 1.5em;
-    margin-bottom: 1.5em;
     font-weight: 700;
 }
 
@@ -356,6 +361,18 @@ video {
 
 *******************************************/
 
+#steps::before {
+    
+  display: block; 
+  content: " "; 
+  margin-top: -60px; 
+  height: 60px; 
+  visibility: hidden; 
+  pointer-events: none;
+
+}
+
+
 .step {
     
     margin: 3em 0 2em 0;
@@ -438,17 +455,6 @@ video {
     
 }
 
-
-#steps::before {
-    
-  display: block; 
-  content: " "; 
-  margin-top: -60px; 
-  height: 60px; 
-  visibility: hidden; 
-  pointer-events: none;
-
-}
 
 /*******************************************************
 
