@@ -21,7 +21,7 @@
     font-size: 1.7em;
     color: rgb(50,33,88);
     text-align: center;
-    margin-top: 1.5em;
+    margin-top: 2em;
     font-weight: 700;
 }
 
@@ -337,23 +337,6 @@ video {
     
 }
 
-.middle-banner-button:hover {
-    
-    background-color: rgba(237,27,88,0.5);
-    color: #fff;
-}*/
-
-/*@media only screen and (min-width: 992px) {
-    
-    .middle-banner-button {
- 
-    padding: 0.8em 1.2em;
-    margin: 1.2em 2em 1.2em 2em;
-    border: 2em;
-    
-  }
-}*/
-
 
 /******************************************
 
@@ -437,29 +420,18 @@ video {
     
 }
 
-#partners::before {
-    
-  display: block; 
-  content: " "; 
-  margin-top: -60px; 
-  height: 60px; 
-  visibility: hidden; 
-  pointer-events: none;
-
-}
-
-.page-title {
+.page-title-partners {
     font-size: 1.7em;
     color: rgb(50,33,88);
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2.1em;
+    margin-bottom: 1.5em;
     font-weight: 700;
 }
 
 #logos {
     
     text-align: center;
-    margin: 0 auto;
     
 }
 
