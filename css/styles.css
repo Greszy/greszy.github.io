@@ -361,6 +361,13 @@ video {
 
 *******************************************/
 
+#steps {
+    
+    padding-bottom: 2em;
+    
+}
+
+
 #steps::before {
     
   display: block; 
@@ -428,6 +435,17 @@ video {
     border-top-style: outset;
     border-top-color: rgba(50,33,88,0.5);
     
+}
+
+#partners::before {
+    
+  display: block; 
+  content: " "; 
+  margin-top: -60px; 
+  height: 60px; 
+  visibility: hidden; 
+  pointer-events: none;
+
 }
 
 .page-title {
