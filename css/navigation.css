@@ -11,21 +11,15 @@
 
 }
 
-.navbar { 
+.navbarSwoup { 
     
     padding: 15px 0;
 
 }
 
-.navbar-nav {
+.navbar-navSwoup {
     
     padding-right: 15px;
-
-}
-
-.navbar-default { 
-
-   border: none;
 
 }
 
